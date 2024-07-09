@@ -13,4 +13,4 @@ Converted MATLAB to R to apply estimation procedure for varying coefficient func
 ## References
 1. Zhu et al.,2012. https://doi.org/10.1214/12-AOS1045
 2. MATLAB codes for MVCM. https://www.nitrc.org/projects/fadtts/
-3. MATLAB/R Reference. https://umaine.edu/mathematics/david-hiebeler/computing-software/matlab-r-reference/
+3. MATLAB/R reference. https://umaine.edu/mathematics/david-hiebeler/computing-software/matlab-r-reference/
