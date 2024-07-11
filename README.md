@@ -1,9 +1,9 @@
 # R codes for MVCM
-Converted MATLAB to R to apply estimation procedure for varying coefficient functions and smoothing individual functions.
+Converted MATLAB to R to apply the estimation procedure of [a multivariate varying coefficient model (MVCM)](https://doi.org/10.1214/12-AOS1045).
 
 
 ## R functions
-`MVCM_test` is a test code to implement Zhu's (2012) method of [a multivariate varying coefficient model (MVCM)](https://doi.org/10.1214/12-AOS1045).
+`MVCM_test` is a test code to implement Zhu's (2012) method of MVCM.
 - `MVCM_read`: read raw data and generate, arc length, standardized design and response matrices, and related dimension parameters.
 - `MVCM_lpks_wob`: read arc length, design and response matrices and generate optimal bandwidth for weighted least squares estimation.
 - `MVCM_lpks_wb1`: read arc length, design and response matrices, and optimal bandwidth and generate the estimated coefficient functions, their first derivatives, and fitted responses using weighted least squares estimation.
@@ -11,6 +11,6 @@ Converted MATLAB to R to apply estimation procedure for varying coefficient func
 
 
 ## References
-1. Zhu, H., Li, R., & Kong, L. (2012). Multivariate varying coefficient model for functional responses. _Annals of statistics_, 40(5), 2634. https://doi.org/10.1214/12-AOS1045
+1. Zhu, H., Li, R., & Kong, L. (2012). Multivariate varying coefficient model for functional responses. _Annals of Statistics_, 40(5), 2634. https://doi.org/10.1214/12-AOS1045
 2. MATLAB codes for MVCM. https://www.nitrc.org/projects/fadtts/
 3. MATLAB/R reference. https://umaine.edu/mathematics/david-hiebeler/computing-software/matlab-r-reference/
